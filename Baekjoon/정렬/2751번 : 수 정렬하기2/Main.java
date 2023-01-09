@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
-public class Main_2751 {
+public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
