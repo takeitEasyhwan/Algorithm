@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-public class Main_1427 {
+public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
