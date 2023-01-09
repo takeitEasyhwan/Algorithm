@@ -26,7 +26,7 @@ class wordSorting implements Comparator<String>{
 	}
 	
 }
-public class Main_1181 {
+public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
