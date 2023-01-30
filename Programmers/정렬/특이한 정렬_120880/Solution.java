@@ -14,25 +14,21 @@ class Solution {
     class nearSort implements Comparator<Integer>{
     	int n;
 
-		public nearSort(int n) {
-			this.n = n;
-		}
-
-		@Override
-		public int compare(Integer o1, Integer o2) {
-			if(Math.abs(o1-n)>Math.abs(o2-n))
+	public nearSort(int n) {
+		this.n = n;
+	}
+	@Override
+	public int compare(Integer o1, Integer o2) {
+		if(Math.abs(o1-n)>Math.abs(o2-n))
+			return 1;
+		else if(Math.abs(o1-n)<Math.abs(o2-n))
+			return -1;
+		else {
+			if (o1<o2)
 				return 1;
-			else if(Math.abs(o1-n)<Math.abs(o2-n))
+			else
 				return -1;
-			else {
-				if (o1<o2)
-					return 1;
-				else
-					return -1;
-			}
-				
-		}
-    	
+		}		
+	}
     }
-
 }
