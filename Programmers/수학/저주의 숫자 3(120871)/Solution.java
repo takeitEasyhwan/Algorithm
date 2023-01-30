@@ -1,5 +1,3 @@
-package baekjoon;
-
 class Solution {
 	public int solution(int n) {
 		int cnt=0;
